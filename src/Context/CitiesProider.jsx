@@ -31,7 +31,6 @@ const Provider = ({ children }) => {
     getdata();
     CityDetail();
   }, []);
-  console.log(city);
   return (
     <context.Provider value={{ Cities, CityDetail, city }}>
       {children}

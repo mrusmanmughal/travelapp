@@ -1,3 +1,4 @@
+@import "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css";
 * {
   padding: 0;
   margin: 0;
@@ -84,7 +85,7 @@ label {
 }
 .sidebar {
   padding: 3rem;
-  width: 60vw;
+  width: 40vw;
   background-color: rgba(39, 38, 38, 0.362);
 }
 .appnav {
@@ -129,9 +130,14 @@ label {
 .map {
   height: 100%;
   width: 100%;
+  border: 1px solid white;
 }
 .city_Detail {
   padding: 4rem;
   background-color: rgb(42, 42, 42);
   margin: 1rem;
+}
+.form {
+  margin: 1rem;
+  background-color: rgb(91, 90, 90);
 }
